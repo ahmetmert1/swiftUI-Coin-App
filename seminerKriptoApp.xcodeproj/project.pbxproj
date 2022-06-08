@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C42AFE6C284DDFFE002D6B36 /* anaSayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AFE6B284DDFFE002D6B36 /* anaSayfa.swift */; };
+		C42AFE6E284DDFFE002D6B36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AFE6D284DDFFE002D6B36 /* ContentView.swift */; };
+		C42AFE70284DDFFE002D6B36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42AFE6F284DDFFE002D6B36 /* Assets.xcassets */; };
+		C42AFE73284DDFFE002D6B36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42AFE72284DDFFE002D6B36 /* Preview Assets.xcassets */; };
+		C42AFE7D284DDFFE002D6B36 /* seminerKriptoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AFE7C284DDFFE002D6B36 /* seminerKriptoAppTests.swift */; };
+		C42AFE87284DDFFE002D6B36 /* seminerKriptoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AFE86284DDFFE002D6B36 /* seminerKriptoAppUITests.swift */; };
+		C42AFE89284DDFFE002D6B36 /* seminerKriptoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AFE88284DDFFE002D6B36 /* seminerKriptoAppUITestsLaunchTests.swift */; };
+		C4409683284E89C100384DA3 /* Bpi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C440967D284E89C100384DA3 /* Bpi.swift */; };
+		C4409684284E89C100384DA3 /* EUR.swift in Sources */ = {isa = PBXBuildFile; fileRef = C440967E284E89C100384DA3 /* EUR.swift */; };
+		C4409685284E89C100384DA3 /* USD.swift in Sources */ = {isa = PBXBuildFile; fileRef = C440967F284E89C100384DA3 /* USD.swift */; };
+		C4409686284E89C100384DA3 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4409680284E89C100384DA3 /* Time.swift */; };
+		C4409687284E89C100384DA3 /* Json4Swift_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4409681284E89C100384DA3 /* Json4Swift_Base.swift */; };
+		C4409688284E89C100384DA3 /* GBP.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4409682284E89C100384DA3 /* GBP.swift */; };
+		C49537C5284DEB59006C464D /* detaySayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49537C4284DEB59006C464D /* detaySayfa.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C42AFE79284DDFFE002D6B36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C42AFE60284DDFFE002D6B36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C42AFE67284DDFFE002D6B36;
+			remoteInfo = seminerKriptoApp;
+		};
+		C42AFE83284DDFFE002D6B36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C42AFE60284DDFFE002D6B36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C42AFE67284DDFFE002D6B36;
+			remoteInfo = seminerKriptoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C42AFE68284DDFFE002D6B36 /* seminerKriptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seminerKriptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42AFE6B284DDFFE002D6B36 /* anaSayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anaSayfa.swift; sourceTree = "<group>"; };
+		C42AFE6D284DDFFE002D6B36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C42AFE6F284DDFFE002D6B36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C42AFE72284DDFFE002D6B36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C42AFE78284DDFFE002D6B36 /* seminerKriptoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seminerKriptoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42AFE7C284DDFFE002D6B36 /* seminerKriptoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seminerKriptoAppTests.swift; sourceTree = "<group>"; };
+		C42AFE82284DDFFE002D6B36 /* seminerKriptoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seminerKriptoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42AFE86284DDFFE002D6B36 /* seminerKriptoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seminerKriptoAppUITests.swift; sourceTree = "<group>"; };
+		C42AFE88284DDFFE002D6B36 /* seminerKriptoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seminerKriptoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C440967D284E89C100384DA3 /* Bpi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bpi.swift; sourceTree = "<group>"; };
+		C440967E284E89C100384DA3 /* EUR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EUR.swift; sourceTree = "<group>"; };
+		C440967F284E89C100384DA3 /* USD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USD.swift; sourceTree = "<group>"; };
+		C4409680284E89C100384DA3 /* Time.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		C4409681284E89C100384DA3 /* Json4Swift_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Json4Swift_Base.swift; sourceTree = "<group>"; };
+		C4409682284E89C100384DA3 /* GBP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBP.swift; sourceTree = "<group>"; };
+		C49537C4284DEB59006C464D /* detaySayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detaySayfa.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C42AFE65284DDFFE002D6B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42AFE75284DDFFE002D6B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42AFE7F284DDFFE002D6B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C42AFE5F284DDFFE002D6B36 = {
+			isa = PBXGroup;
+			children = (
+				C42AFE6A284DDFFE002D6B36 /* seminerKriptoApp */,
+				C42AFE7B284DDFFE002D6B36 /* seminerKriptoAppTests */,
+				C42AFE69284DDFFE002D6B36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C42AFE69284DDFFE002D6B36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C42AFE68284DDFFE002D6B36 /* seminerKriptoApp.app */,
+				C42AFE78284DDFFE002D6B36 /* seminerKriptoAppTests.xctest */,
+				C42AFE82284DDFFE002D6B36 /* seminerKriptoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C42AFE6A284DDFFE002D6B36 /* seminerKriptoApp */ = {
+			isa = PBXGroup;
+			children = (
+				C440967C284E897F00384DA3 /* DataModel */,
+				C42AFE6B284DDFFE002D6B36 /* anaSayfa.swift */,
+				C42AFE6D284DDFFE002D6B36 /* ContentView.swift */,
+				C42AFE6F284DDFFE002D6B36 /* Assets.xcassets */,
+				C42AFE71284DDFFE002D6B36 /* Preview Content */,
+				C49537C4284DEB59006C464D /* detaySayfa.swift */,
+			);
+			path = seminerKriptoApp;
+			sourceTree = "<group>";
+		};
+		C42AFE71284DDFFE002D6B36 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C42AFE85284DDFFE002D6B36 /* seminerKriptoAppUITests */,
+				C42AFE72284DDFFE002D6B36 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C42AFE7B284DDFFE002D6B36 /* seminerKriptoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C42AFE7C284DDFFE002D6B36 /* seminerKriptoAppTests.swift */,
+			);
+			path = seminerKriptoAppTests;
+			sourceTree = "<group>";
+		};
+		C42AFE85284DDFFE002D6B36 /* seminerKriptoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C42AFE86284DDFFE002D6B36 /* seminerKriptoAppUITests.swift */,
+				C42AFE88284DDFFE002D6B36 /* seminerKriptoAppUITestsLaunchTests.swift */,
+			);
+			path = seminerKriptoAppUITests;
+			sourceTree = "<group>";
+		};
+		C440967C284E897F00384DA3 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				C440967D284E89C100384DA3 /* Bpi.swift */,
+				C440967E284E89C100384DA3 /* EUR.swift */,
+				C4409682284E89C100384DA3 /* GBP.swift */,
+				C4409681284E89C100384DA3 /* Json4Swift_Base.swift */,
+				C4409680284E89C100384DA3 /* Time.swift */,
+				C440967F284E89C100384DA3 /* USD.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C42AFE67284DDFFE002D6B36 /* seminerKriptoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42AFE8C284DDFFE002D6B36 /* Build configuration list for PBXNativeTarget "seminerKriptoApp" */;
+			buildPhases = (
+				C42AFE64284DDFFE002D6B36 /* Sources */,
+				C42AFE65284DDFFE002D6B36 /* Frameworks */,
+				C42AFE66284DDFFE002D6B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = seminerKriptoApp;
+			productName = seminerKriptoApp;
+			productReference = C42AFE68284DDFFE002D6B36 /* seminerKriptoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C42AFE77284DDFFE002D6B36 /* seminerKriptoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42AFE8F284DDFFE002D6B36 /* Build configuration list for PBXNativeTarget "seminerKriptoAppTests" */;
+			buildPhases = (
+				C42AFE74284DDFFE002D6B36 /* Sources */,
+				C42AFE75284DDFFE002D6B36 /* Frameworks */,
+				C42AFE76284DDFFE002D6B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C42AFE7A284DDFFE002D6B36 /* PBXTargetDependency */,
+			);
+			name = seminerKriptoAppTests;
+			productName = seminerKriptoAppTests;
+			productReference = C42AFE78284DDFFE002D6B36 /* seminerKriptoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C42AFE81284DDFFE002D6B36 /* seminerKriptoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42AFE92284DDFFE002D6B36 /* Build configuration list for PBXNativeTarget "seminerKriptoAppUITests" */;
+			buildPhases = (
+				C42AFE7E284DDFFE002D6B36 /* Sources */,
+				C42AFE7F284DDFFE002D6B36 /* Frameworks */,
+				C42AFE80284DDFFE002D6B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C42AFE84284DDFFE002D6B36 /* PBXTargetDependency */,
+			);
+			name = seminerKriptoAppUITests;
+			productName = seminerKriptoAppUITests;
+			productReference = C42AFE82284DDFFE002D6B36 /* seminerKriptoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C42AFE60284DDFFE002D6B36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C42AFE67284DDFFE002D6B36 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					C42AFE77284DDFFE002D6B36 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C42AFE67284DDFFE002D6B36;
+					};
+					C42AFE81284DDFFE002D6B36 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C42AFE67284DDFFE002D6B36;
+					};
+				};
+			};
+			buildConfigurationList = C42AFE63284DDFFE002D6B36 /* Build configuration list for PBXProject "seminerKriptoApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C42AFE5F284DDFFE002D6B36;
+			productRefGroup = C42AFE69284DDFFE002D6B36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C42AFE67284DDFFE002D6B36 /* seminerKriptoApp */,
+				C42AFE77284DDFFE002D6B36 /* seminerKriptoAppTests */,
+				C42AFE81284DDFFE002D6B36 /* seminerKriptoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C42AFE66284DDFFE002D6B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42AFE73284DDFFE002D6B36 /* Preview Assets.xcassets in Resources */,
+				C42AFE70284DDFFE002D6B36 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42AFE76284DDFFE002D6B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42AFE80284DDFFE002D6B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C42AFE64284DDFFE002D6B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42AFE6E284DDFFE002D6B36 /* ContentView.swift in Sources */,
+				C4409684284E89C100384DA3 /* EUR.swift in Sources */,
+				C4409686284E89C100384DA3 /* Time.swift in Sources */,
+				C4409685284E89C100384DA3 /* USD.swift in Sources */,
+				C42AFE6C284DDFFE002D6B36 /* anaSayfa.swift in Sources */,
+				C4409687284E89C100384DA3 /* Json4Swift_Base.swift in Sources */,
+				C4409688284E89C100384DA3 /* GBP.swift in Sources */,
+				C49537C5284DEB59006C464D /* detaySayfa.swift in Sources */,
+				C4409683284E89C100384DA3 /* Bpi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42AFE74284DDFFE002D6B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42AFE7D284DDFFE002D6B36 /* seminerKriptoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42AFE7E284DDFFE002D6B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42AFE87284DDFFE002D6B36 /* seminerKriptoAppUITests.swift in Sources */,
+				C42AFE89284DDFFE002D6B36 /* seminerKriptoAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C42AFE7A284DDFFE002D6B36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C42AFE67284DDFFE002D6B36 /* seminerKriptoApp */;
+			targetProxy = C42AFE79284DDFFE002D6B36 /* PBXContainerItemProxy */;
+		};
+		C42AFE84284DDFFE002D6B36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C42AFE67284DDFFE002D6B36 /* seminerKriptoApp */;
+			targetProxy = C42AFE83284DDFFE002D6B36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C42AFE8A284DDFFE002D6B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C42AFE8B284DDFFE002D6B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C42AFE8D284DDFFE002D6B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"seminerKriptoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = PSBGPNU5U5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmert.seminerKriptoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C42AFE8E284DDFFE002D6B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"seminerKriptoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = PSBGPNU5U5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmert.seminerKriptoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C42AFE90284DDFFE002D6B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSBGPNU5U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmert.seminerKriptoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/seminerKriptoApp.app/seminerKriptoApp";
+			};
+			name = Debug;
+		};
+		C42AFE91284DDFFE002D6B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSBGPNU5U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmert.seminerKriptoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/seminerKriptoApp.app/seminerKriptoApp";
+			};
+			name = Release;
+		};
+		C42AFE93284DDFFE002D6B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSBGPNU5U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmert.seminerKriptoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = seminerKriptoApp;
+			};
+			name = Debug;
+		};
+		C42AFE94284DDFFE002D6B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSBGPNU5U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmert.seminerKriptoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = seminerKriptoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C42AFE63284DDFFE002D6B36 /* Build configuration list for PBXProject "seminerKriptoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42AFE8A284DDFFE002D6B36 /* Debug */,
+				C42AFE8B284DDFFE002D6B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42AFE8C284DDFFE002D6B36 /* Build configuration list for PBXNativeTarget "seminerKriptoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42AFE8D284DDFFE002D6B36 /* Debug */,
+				C42AFE8E284DDFFE002D6B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42AFE8F284DDFFE002D6B36 /* Build configuration list for PBXNativeTarget "seminerKriptoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42AFE90284DDFFE002D6B36 /* Debug */,
+				C42AFE91284DDFFE002D6B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42AFE92284DDFFE002D6B36 /* Build configuration list for PBXNativeTarget "seminerKriptoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42AFE93284DDFFE002D6B36 /* Debug */,
+				C42AFE94284DDFFE002D6B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C42AFE60284DDFFE002D6B36 /* Project object */;
+}
